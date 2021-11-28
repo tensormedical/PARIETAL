@@ -81,7 +81,8 @@ if __name__ == "__main__":
         output_path = os.path.join(os.getcwd(), output_image)
 
     # default model name
-    model_name = 'campinas_baseline_s2_multires'
+    # model_name = 'campinas_baseline_s2_multires'
+    model_name = 'flair_combined_model'
 
     if opt.verbose:
         f = Figlet(font="slant")
